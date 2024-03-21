@@ -12,6 +12,8 @@ import com.github.javafaker.Faker;
 @RestController
 public class DataController {
 
+    private final String LANGUAGE = "en-US";
+
     @GetMapping("")
     public String healthCheck() {
         return "app works perfectly!";
@@ -26,7 +28,7 @@ public class DataController {
     public JsonNode getRandomNations() {
         var objectMapper = new ObjectMapper();
 
-        var faker = new Faker(new Locale("en-US"));
+        var faker = new Faker(new Locale(LANGUAGE));
 
         var nations = objectMapper.createArrayNode();
 
@@ -47,7 +49,7 @@ public class DataController {
     public JsonNode getRandomCurrencies() {
         var objectMapper = new ObjectMapper();
 
-        var faker = new Faker(new Locale("en-US"));
+        var faker = new Faker(new Locale(LANGUAGE));
 
         var currencies = objectMapper.createArrayNode();
 
@@ -66,7 +68,7 @@ public class DataController {
     public JsonNode getRandomAirlines() {
         var objectMapper = new ObjectMapper();
 
-        var faker = new Faker(new Locale("en-US"));
+        var faker = new Faker(new Locale(LANGUAGE));
 
         var airlines = objectMapper.createArrayNode();
 
