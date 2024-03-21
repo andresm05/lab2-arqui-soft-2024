@@ -12,7 +12,7 @@ import com.github.javafaker.Faker;
 @RestController
 public class DataController {
 
-    private final String LANGUAGE = "en-US";
+    private static final String LANGUAGE = "en-US";
 
     @GetMapping("")
     public String healthCheck() {
