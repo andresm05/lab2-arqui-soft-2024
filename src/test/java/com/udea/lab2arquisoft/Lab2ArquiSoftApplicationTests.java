@@ -15,31 +15,31 @@ class Lab2ArquiSoftApplicationTests {
 	private DataController dataController;
 
 	@Test
-	public void health() {
+	 void health() {
 		String response = dataController.healthCheck();
 		assertEquals("app works perfectly!", response);
 	}
 
 	@Test
-	public void version() {
+	 void version() {
 		String response = dataController.version();
 		assertEquals("The version of the app is 1.0.0", response);
 	}
 
 	@Test
-	public void nationLength() {
+	 void nationLength() {
 		JsonNode response = dataController.getRandomNations();
 		assertEquals(10, response.size());
 	}
 
 	@Test
-	public void currencyLength() {
+	 void currencyLength() {
 		JsonNode response = dataController.getRandomCurrencies();
 		assertEquals(20, response.size());
 	}
 
 	@Test
-	public void airlinesLength() {
+	 void airlinesLength() {
 		JsonNode response = dataController.getRandomAirlines();
 		assertEquals(20, response.size());
 	}
