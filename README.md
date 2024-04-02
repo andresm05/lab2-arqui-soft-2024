@@ -1,4 +1,17 @@
-============================================================================================================================================================
+[![CI/CD Pipeline](https://github.com/andresm05/lab2-arqui-soft-2024/actions/workflows/build.yml/badge.svg)](https://github.com/andresm05/lab2-arqui-soft-2024/actions/workflows/build.yml)
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=andresm05_lab2-arqui-soft-2024&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=andresm05_lab2-arqui-soft-2024)
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=andresm05_lab2-arqui-soft-2024&metric=bugs)](https://sonarcloud.io/summary/new_code?id=andresm05_lab2-arqui-soft-2024)
+
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=andresm05_lab2-arqui-soft-2024&metric=coverage)](https://sonarcloud.io/summary/new_code?id=andresm05_lab2-arqui-soft-2024)
+
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=andresm05_lab2-arqui-soft-2024&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=andresm05_lab2-arqui-soft-2024)
+
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=andresm05_lab2-arqui-soft-2024&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=andresm05_lab2-arqui-soft-2024)
+
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=andresm05_lab2-arqui-soft-2024&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=andresm05_lab2-arqui-soft-2024)
+
 Implementation of a Simple App with the next operations:
 
 * Get random nations
