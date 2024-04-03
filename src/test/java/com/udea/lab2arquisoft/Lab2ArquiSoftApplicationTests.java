@@ -43,9 +43,4 @@ class Lab2ArquiSoftApplicationTests {
 		JsonNode response = dataController.getRandomAirlines();
 		assertEquals(20, response.size());
 	}
-
-	@Test
-	void contextLoads() {
-	}
-
 }
