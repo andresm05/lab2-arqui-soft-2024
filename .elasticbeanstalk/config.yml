@@ -1,0 +1,10 @@
+branch-defaults:
+  main:
+    environment: null
+    group_suffix: null
+global:
+  profile: eb-cli
+
+  deploy:
+  artifact: target/lab2-arqui-soft-0.0.1-SNAPSHOT.jar
+
