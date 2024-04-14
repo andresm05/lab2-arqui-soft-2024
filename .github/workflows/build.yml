@@ -115,8 +115,8 @@ jobs:
   # Deploy's job
   deploy:
 
-    # needs: build
-    # name: Deploy
+    needs: build
+    name: Deploy
     runs-on: ubuntu-latest
             
     steps:
