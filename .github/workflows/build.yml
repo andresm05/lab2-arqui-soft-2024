@@ -128,4 +128,4 @@ jobs:
             
       - name: Deploy to Elastic Beanstalk
         run: |
-          eb deploy --profile beanstalk --region us-east-1
+          eb deploy --profile lab2-arqui-soft-eb --region us-east-1
