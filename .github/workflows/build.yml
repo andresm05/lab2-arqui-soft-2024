@@ -128,4 +128,4 @@ jobs:
             
       - name: Deploy to Elastic Beanstalk
         run: |
-          eb deploy --profile eb-cli --region us-east-1
+          eb deploy --profile beanstalk --region us-east-1
