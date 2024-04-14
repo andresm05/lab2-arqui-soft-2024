@@ -43,7 +43,7 @@
 	<profile>
 		<id>beanstalk</id>
 		<build>
-			<finalName>${project.name}-eb</finalName>
+			<finalName>lab2-arqui-soft-eb</finalName>
 			<plugins>
 				<plugin>
 					<groupId>org.springframework.boot</groupId>
