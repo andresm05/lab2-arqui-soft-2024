@@ -1,8 +1,8 @@
 branch-defaults:
   main:
     environment: lab2-arqui-soft
-deploy:
-  artifact: target/lab2-arqui-soft-0.0.1-SNAPSHOT.jar
+# deploy:
+#   artifact: target/lab2-arqui-soft-0.0.1-SNAPSHOT.jar
 global:
   application_name: lab2-arqui-soft
   branch: null
